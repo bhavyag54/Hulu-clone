@@ -2,8 +2,6 @@ import Image from "next/image";
 import HeaderItem from "./HeaderItem";
 import { BadgeCheckIcon, CollectionIcon, HomeIcon, LightningBoltIcon, SearchIcon } from "@heroicons/react/outline";
 import {useRouter} from 'next/router';
-import { auth,provider } from "../pages/firebase";
-import { useEffect } from 'react';
 import {signIn} from "next-auth/client"
 
 function Header() {
